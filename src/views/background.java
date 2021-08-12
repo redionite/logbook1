@@ -12,7 +12,7 @@ import javax.swing.JPanel;
 public class background extends JPanel{
     private Image image;
     public background(){
-        image = new ImageIcon(getClass().getResource("/images/logo3.png")).getImage();
+        
     }
     @Override
     protected void paintComponent(Graphics graph){

@@ -34,10 +34,9 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="panelUtama" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -58,28 +57,27 @@
           <Group type="103" groupAlignment="0" attributes="0">
               <Component id="panelHeader" max="32767" attributes="0"/>
               <Group type="102" alignment="0" attributes="0">
-                  <Component id="panelMenu" min="-2" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="panelMasterData" min="-2" max="-2" attributes="0"/>
-                      <Component id="panelTransaksi" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="1001" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                  <Component id="panelMasterData" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="238" max="-2" attributes="0"/>
+                  <Component id="panelTransaksi" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
+              <Component id="panelMenu" alignment="0" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
                   <Component id="panelHeader" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="panelMenu" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="panelMenu" max="32767" attributes="0"/>
-                      <Group type="102" attributes="0">
-                          <Component id="panelMasterData" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                          <Component id="panelTransaksi" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="435" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="panelMasterData" min="-2" max="-2" attributes="0"/>
+                      <Component id="panelTransaksi" min="-2" max="-2" attributes="0"/>
                   </Group>
+                  <EmptySpace min="-2" pref="461" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -108,10 +106,10 @@
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnClose" pref="49" max="32767" attributes="0"/>
+                  <Component id="btnClose" max="32767" attributes="0"/>
                   <Component id="btnMaximize" alignment="1" max="32767" attributes="0"/>
                   <Component id="btnMinimize" alignment="1" max="32767" attributes="0"/>
-                  <Component id="labelNama" alignment="0" max="32767" attributes="0"/>
+                  <Component id="labelNama" alignment="1" max="32767" attributes="0"/>
               </Group>
             </DimensionLayout>
           </Layout>
@@ -119,15 +117,18 @@
             <Component class="javax.swing.JButton" name="btnClose">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="99" green="0" red="66" type="rgb"/>
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_Delete_30px_4.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_delete_48px.png"/>
                 </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Default Cursor"/>
+                </Property>
                 <Property name="opaque" type="boolean" value="true"/>
                 <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_Delete_30px_5.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_cancel_48px.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -145,7 +146,6 @@
                   <Font name="Tahoma" size="20" style="0"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Aplikasi Inventory Barang"/>
               </Properties>
               <Events>
                 <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="labelNamaMouseDragged"/>
@@ -158,7 +158,7 @@
                   <Color blue="66" green="66" red="66" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_Maximize_Window_30px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_maximize_window_32px.png"/>
                 </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -172,14 +172,14 @@
             <Component class="javax.swing.JButton" name="btnMinimize">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                  <Color blue="0" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_Minimize_Window_30px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_minimize_window_32px_2.png"/>
                 </Property>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="selectedIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_Minimize_Window_30px_1.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_minimize_window_26px.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -199,32 +199,34 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="btnMasterData" alignment="0" pref="165" max="32767" attributes="0"/>
-                          <Component id="btnTransaksi" alignment="0" pref="165" max="32767" attributes="0"/>
-                          <Component id="panelJam" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                  </Group>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="95" max="-2" attributes="0"/>
+                      <Component id="btnMasterData" min="-2" pref="181" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                      <Component id="btnTransaksi" min="-2" pref="196" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Component id="btnTransaksi1" min="-2" pref="196" max="-2" attributes="0"/>
+                      <EmptySpace pref="284" max="32767" attributes="0"/>
+                      <Component id="panelJam" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="btnMasterData" min="-2" pref="45" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
-                      <Component id="btnTransaksi" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="panelJam" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnTransaksi1" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnMasterData" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="btnTransaksi" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="panelJam" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -242,7 +244,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_master_30px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_master_26px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Master Data"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -250,13 +252,15 @@
                     <EtchetBorder/>
                   </Border>
                 </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
                 <Property name="contentAreaFilled" type="boolean" value="false"/>
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
                 </Property>
-                <Property name="horizontalAlignment" type="int" value="2"/>
-                <Property name="horizontalTextPosition" type="int" value="4"/>
+                <Property name="focusPainted" type="boolean" value="false"/>
+                <Property name="horizontalAlignment" type="int" value="10"/>
                 <Property name="opaque" type="boolean" value="true"/>
+                <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
               </Properties>
               <Events>
                 <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnMasterDataMouseClicked"/>
@@ -277,7 +281,7 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_transaction_40px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_order_history_32px_1.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Transaksi"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -289,7 +293,7 @@
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
                 </Property>
-                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="horizontalAlignment" type="int" value="10"/>
                 <Property name="opaque" type="boolean" value="true"/>
               </Properties>
               <Events>
@@ -308,7 +312,7 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="tgl" alignment="1" pref="165" max="32767" attributes="0"/>
+                      <Component id="tgl" alignment="1" pref="231" max="32767" attributes="0"/>
                       <Component id="jam" alignment="0" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
@@ -329,7 +333,7 @@
                       <Color blue="cc" green="0" red="0" type="rgb"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="24" style="0"/>
+                      <Font name="Perpetua Titling MT" size="24" style="0"/>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -347,7 +351,7 @@
                       <Color blue="cc" green="0" red="0" type="rgb"/>
                     </Property>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Tahoma" size="36" style="0"/>
+                      <Font name="Plaguard" size="24" style="0"/>
                     </Property>
                     <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -362,29 +366,37 @@
                 </Component>
               </SubComponents>
             </Container>
-            <Container class="javax.swing.JPanel" name="jPanel1">
+            <Component class="javax.swing.JButton" name="btnTransaksi1">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="cc" green="0" red="0" type="rgb"/>
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_info_24px.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Tentang Kami"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                    <EtchetBorder/>
+                  </Border>
+                </Property>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="10"/>
+                <Property name="opaque" type="boolean" value="true"/>
               </Properties>
-              <AuxValues>
-                <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new views.background();"/>
-              </AuxValues>
-
-              <Layout>
-                <DimensionLayout dim="0">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="126" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-                <DimensionLayout dim="1">
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <EmptySpace min="0" pref="88" max="32767" attributes="0"/>
-                  </Group>
-                </DimensionLayout>
-              </Layout>
-            </Container>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTransaksi1MouseClicked"/>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTransaksi1MouseEntered"/>
+                <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btnTransaksi1MouseExited"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTransaksi1ActionPerformed"/>
+              </Events>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JPanel" name="panelMasterData">
@@ -424,13 +436,16 @@
             <Component class="javax.swing.JButton" name="btnDataBarang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="cc" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_new_product_26px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_product_32px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Data Barang"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -454,13 +469,16 @@
             <Component class="javax.swing.JButton" name="btnDataSupplier">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="cc" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_supplier_24px_2.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_supplier_30px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Data Supplier"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -484,13 +502,16 @@
             <Component class="javax.swing.JButton" name="btnDataGudang">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="cc" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_warehouse_30px_1.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_warehouse_30px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value=" Data Gudang"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -514,16 +535,18 @@
             <Component class="javax.swing.JButton" name="btnDataKategori">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="cc" green="0" red="0" type="rgb"/>
                 </Property>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/images/icons8_category_24px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_category_24px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="  Data Kategori"/>
-                <Property name="actionCommand" type="java.lang.String" value="  Data Kategori"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
                   <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
                     <EtchetBorder/>
@@ -580,7 +603,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_import_24px.png"/>
+                  <Image iconType="3" name="/images/icons8_import_50px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value=" Barang Masuk"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
@@ -592,7 +615,8 @@
                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                   <Color id="Hand Cursor"/>
                 </Property>
-                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="doubleBuffered" type="boolean" value="true"/>
+                <Property name="horizontalAlignment" type="int" value="10"/>
                 <Property name="opaque" type="boolean" value="true"/>
               </Properties>
               <Events>
@@ -610,7 +634,7 @@
                   <Font name="Tahoma" size="14" style="0"/>
                 </Property>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_export_24px.png"/>
+                  <Image iconType="2" name="C:\Users\Dion\AppData\Local\Temp\icons8_export_50px.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Barang Keluar"/>
                 <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
